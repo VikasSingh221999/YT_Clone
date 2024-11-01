@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box ;
+    font-family: 'Playwrite England SemiJoined',   sans-serif;
+}
+:root{
+    --mainColor: #141111;
+    --mainColorLight:#5767aa;
+    --secondaryColor:#DB2B39;
+    --textColor: #eee;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    padding:   0 2rem;
+    background-color: var(--mainColor);
+    color: var(--textColor);
+
+}
+
+nav a{
+    margin: 0 2rem;
+    color: var(--textColor);
+    text-decoration: none;
+}
+
+
+header .img{
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 8px;
+} 
+.search-bar{
+    width: 400px;
+    border-radius: 30px 0 0 30px;
+    border: none;
+    outline: none;
+    height: 40px;
+    cursor:text;
+    background-color: #272626;
+}
+.search-btn{
+    margin-right: 5px;
+    width: 35px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 0 30px 30px 0;
+    cursor: pointer;
+    background-color: #242222;
+}
+.m-phn{
+    border: none;
+    background: rgb(85, 84, 84);
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    color: white;
+    font-size:24px ;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+
+.second-container{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-grow:1 ;
+ 
+}
+.first-container{
+    display: flex;
+}
+.btn{
+    background: none;
+    border: none;
+    width: 50px;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 9px;
+    color: white;
+    font-weight: lighter;
+    cursor: pointer;
+}
+.btn:hover{
+ border-radius: 50px;
+ background-color: #292828;
+}
+
+.third-container button{
+  margin: 0 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.camera, .bell, .user{
+    font-size: 24px;
+    background:none;
+    color: white;
+}
